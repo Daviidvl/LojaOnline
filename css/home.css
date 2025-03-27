@@ -146,3 +146,32 @@ body{
     background-color:var(--cor-secundaria) ;
 }
 
+.banner2{
+    display: flex;
+    justify-content:center;
+    background-color: var(--cor-primaria);
+    height: 24em;
+}
+
+.banner-left2{
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-left2 h1{
+    font-size: 4em;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -5px;
+    color: var(--cor-de-fundo);
+}
+
+.banner-left2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
